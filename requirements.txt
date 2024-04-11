@@ -1,0 +1,5 @@
+pyjwt==2.8.0
+msal==1.26.0
+pyyaml==6.0.1
+cryptography==42.0.2
+kombu==5.3.5

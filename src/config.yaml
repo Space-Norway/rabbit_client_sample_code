@@ -1,0 +1,8 @@
+client_id: <Application (client) id> # The application ID for this application
+rabbit_server_id: <Application (client) id> # The application ID of the RabbitMQ sever you want to connect to
+tenant_id: <Tenant id> # The Microsoft Entra ID Tennant ID
+private_key_filename: certificate/private.key # The path and filename of your certificate priate key
+fingerprint: <fingerprint> # The fingerprint of your certificate
+rabbit_server_url: rabbit-server-url.local # The url of the RabbitMQ server
+rabbit_server_port: 5673 # The port of the RabbitMQ server
+virtual_host: <virtual host> # The virtual host to connect to on the RabbitMQ server
