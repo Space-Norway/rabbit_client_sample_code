@@ -86,4 +86,5 @@ consumer = Consumer(
 )
 
 consumer.consume()
+# This will read one message from the queue. Wrap this call in a loop to read more messages.
 connection.drain_events(timeout=1)
